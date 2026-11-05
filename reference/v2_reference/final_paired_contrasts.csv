@@ -1,0 +1,17 @@
+view,a,b,level,delta_macro_f1,lo,hi,subjects,interval_scope
+locked_reference,DrCIF,combined,segment,-0.161708766341499,-0.24625935453656686,-0.07198107659347114,33,fixed OOF models; species-stratified subject-cluster bootstrap
+locked_reference,DrCIF,combined,subject,-0.2484205990088343,-0.4363156139392794,-0.060891677723721116,33,fixed OOF models; species-stratified subject-cluster bootstrap
+locked_reference,RDST,combined,segment,-0.23653594270404513,-0.31108351824161246,-0.16041122971394028,33,fixed OOF models; species-stratified subject-cluster bootstrap
+locked_reference,RDST,combined,subject,-0.3810457516339869,-0.5136033159307153,-0.22427453884265036,33,fixed OOF models; species-stratified subject-cluster bootstrap
+locked_reference,DrCIF,phase_ordered,segment,-0.08919574544190967,-0.16108047794886518,-0.013099864609294727,33,fixed OOF models; species-stratified subject-cluster bootstrap
+locked_reference,DrCIF,phase_ordered,subject,-0.13793082734259204,-0.3096049747294329,0.029074367625837653,33,fixed OOF models; species-stratified subject-cluster bootstrap
+locked_reference,RDST,phase_ordered,segment,-0.1640229218044558,-0.21916126330785812,-0.10917649441226383,33,fixed OOF models; species-stratified subject-cluster bootstrap
+locked_reference,RDST,phase_ordered,subject,-0.2705559799677446,-0.39903763687293103,-0.1471376761842875,33,fixed OOF models; species-stratified subject-cluster bootstrap
+locked_reference,DrCIF,occupancy,segment,-0.1576054041445406,-0.23882897589317179,-0.07384211979573563,33,fixed OOF models; species-stratified subject-cluster bootstrap
+locked_reference,DrCIF,occupancy,subject,-0.2803907203907203,-0.46103440921823274,-0.10171825267955302,33,fixed OOF models; species-stratified subject-cluster bootstrap
+locked_reference,RDST,occupancy,segment,-0.23243258050708673,-0.3067346873615312,-0.15727628112733066,33,fixed OOF models; species-stratified subject-cluster bootstrap
+locked_reference,RDST,occupancy,subject,-0.41301587301587295,-0.5248776839457786,-0.28798409332385005,33,fixed OOF models; species-stratified subject-cluster bootstrap
+phase_ordered,ha_soft,quantile,segment,0.002018814159577942,-0.015242499544538192,0.023039662839013802,33,fixed OOF models; species-stratified subject-cluster bootstrap
+phase_ordered,ha_soft,quantile,subject,-0.023516483516483444,-0.13447490499696388,0.08152050580997948,33,fixed OOF models; species-stratified subject-cluster bootstrap
+combined,ha_soft,quantile,segment,-0.04149119439638471,-0.0861814313504945,0.009769692315456786,33,fixed OOF models; species-stratified subject-cluster bootstrap
+combined,ha_soft,quantile,subject,-0.03639122315592913,-0.14257930365128516,0.06208077461753912,33,fixed OOF models; species-stratified subject-cluster bootstrap

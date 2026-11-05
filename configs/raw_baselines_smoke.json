@@ -1,0 +1,23 @@
+{
+  "views": [
+    "raw_iq",
+    "spectrogram"
+  ],
+  "methods": [
+    "rocket",
+    "multirocket"
+  ],
+  "C_values": [
+    1
+  ],
+  "kernels": [
+    84
+  ],
+  "threads": 1,
+  "transform_batch": 32,
+  "max_iter": 3000,
+  "tol": 1e-05,
+  "require_convergence": true,
+  "bootstrap": 20,
+  "seed": 20261031
+}

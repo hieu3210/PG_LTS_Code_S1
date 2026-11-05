@@ -1,0 +1,54 @@
+{
+  "seed": 20261031,
+  "threads": 1,
+  "states": 4,
+  "channels": 3,
+  "bins": [
+    4,
+    8
+  ],
+  "profiles": [
+    {
+      "name": "smoke_independent",
+      "segments": 2,
+      "cycles": 4,
+      "overlap": false
+    },
+    {
+      "name": "smoke_overlap",
+      "segments": 3,
+      "cycles": 4,
+      "overlap": true
+    }
+  ],
+  "scenarios": [
+    {
+      "generator": "iid",
+      "strength": 0
+    },
+    {
+      "generator": "iid",
+      "strength": 0.35
+    },
+    {
+      "generator": "iid",
+      "strength": 0.8
+    },
+    {
+      "generator": "smooth",
+      "strength": 0
+    }
+  ],
+  "groups": [
+    "uniform_bins",
+    "cyclic_shift"
+  ],
+  "overlap_couplings": [
+    "independent_occurrence",
+    "coherent_cycle_id"
+  ],
+  "repetitions": 3,
+  "null_permutations": 19,
+  "alpha": 0.05,
+  "draw_batch": 3
+}

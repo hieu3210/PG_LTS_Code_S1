@@ -1,0 +1,964 @@
+{
+  "occupancy": [
+    {
+      "view": "occupancy",
+      "method": "linguistic",
+      "partition": "ha_soft",
+      "states": 2,
+      "B": 8,
+      "l1": 0.01,
+      "lg": 0.005,
+      "candidate_id": "321333305170"
+    },
+    {
+      "view": "occupancy",
+      "method": "linguistic",
+      "partition": "ha_soft",
+      "states": 2,
+      "B": 8,
+      "l1": 0.001,
+      "lg": 0.0005,
+      "candidate_id": "514aa6c7990a"
+    },
+    {
+      "view": "occupancy",
+      "method": "linguistic",
+      "partition": "ha_soft",
+      "states": 2,
+      "B": 8,
+      "l1": 0.1,
+      "lg": 0.05,
+      "candidate_id": "421e45457e38"
+    },
+    {
+      "view": "occupancy",
+      "method": "linguistic",
+      "partition": "quantile",
+      "states": 2,
+      "B": 8,
+      "l1": 0.1,
+      "lg": 0.05,
+      "candidate_id": "33413fdd9db3"
+    },
+    {
+      "view": "occupancy",
+      "method": "linguistic",
+      "partition": "quantile",
+      "states": 2,
+      "B": 8,
+      "l1": 0.001,
+      "lg": 0.0005,
+      "candidate_id": "df77fa112ebe"
+    },
+    {
+      "view": "occupancy",
+      "method": "linguistic",
+      "partition": "quantile",
+      "states": 2,
+      "B": 8,
+      "l1": 0.01,
+      "lg": 0.005,
+      "candidate_id": "b7a9d3d157cf"
+    },
+    {
+      "view": "occupancy",
+      "method": "linguistic",
+      "partition": "ha_soft",
+      "states": 4,
+      "B": 8,
+      "l1": 0.1,
+      "lg": 0.05,
+      "candidate_id": "b51adc4e6243"
+    },
+    {
+      "view": "occupancy",
+      "method": "linguistic",
+      "partition": "quantile",
+      "states": 4,
+      "B": 8,
+      "l1": 0.01,
+      "lg": 0.005,
+      "candidate_id": "271d846e35f0"
+    },
+    {
+      "view": "occupancy",
+      "method": "linguistic",
+      "partition": "quantile",
+      "states": 4,
+      "B": 8,
+      "l1": 0.001,
+      "lg": 0.0005,
+      "candidate_id": "04b72f077397"
+    },
+    {
+      "view": "occupancy",
+      "method": "linguistic",
+      "partition": "quantile",
+      "states": 4,
+      "B": 8,
+      "l1": 0.1,
+      "lg": 0.05,
+      "candidate_id": "49edcfb01702"
+    },
+    {
+      "view": "occupancy",
+      "method": "linguistic",
+      "partition": "ha_soft",
+      "states": 4,
+      "B": 8,
+      "l1": 0.001,
+      "lg": 0.0005,
+      "candidate_id": "eeaeb16971bd"
+    },
+    {
+      "view": "occupancy",
+      "method": "linguistic",
+      "partition": "ha_soft",
+      "states": 4,
+      "B": 8,
+      "l1": 0.01,
+      "lg": 0.005,
+      "candidate_id": "958182135e74"
+    }
+  ],
+  "phase_occ": [
+    {
+      "view": "phase_occ",
+      "method": "linguistic",
+      "partition": "ha_soft",
+      "states": 4,
+      "B": 8,
+      "l1": 0.01,
+      "lg": 0.005,
+      "candidate_id": "0523ce14dd3f"
+    },
+    {
+      "view": "phase_occ",
+      "method": "linguistic",
+      "partition": "quantile",
+      "states": 4,
+      "B": 4,
+      "l1": 0.01,
+      "lg": 0.005,
+      "candidate_id": "80f5a1d2bedb"
+    },
+    {
+      "view": "phase_occ",
+      "method": "linguistic",
+      "partition": "quantile",
+      "states": 4,
+      "B": 4,
+      "l1": 0.001,
+      "lg": 0.0005,
+      "candidate_id": "3f1616da94fd"
+    },
+    {
+      "view": "phase_occ",
+      "method": "linguistic",
+      "partition": "ha_soft",
+      "states": 2,
+      "B": 8,
+      "l1": 0.1,
+      "lg": 0.05,
+      "candidate_id": "d259f68aef1a"
+    },
+    {
+      "view": "phase_occ",
+      "method": "linguistic",
+      "partition": "ha_soft",
+      "states": 2,
+      "B": 4,
+      "l1": 0.01,
+      "lg": 0.005,
+      "candidate_id": "f5b829bdfa05"
+    },
+    {
+      "view": "phase_occ",
+      "method": "linguistic",
+      "partition": "ha_soft",
+      "states": 4,
+      "B": 4,
+      "l1": 0.1,
+      "lg": 0.05,
+      "candidate_id": "eac18fea8668"
+    },
+    {
+      "view": "phase_occ",
+      "method": "linguistic",
+      "partition": "quantile",
+      "states": 2,
+      "B": 8,
+      "l1": 0.001,
+      "lg": 0.0005,
+      "candidate_id": "a5065ae24979"
+    },
+    {
+      "view": "phase_occ",
+      "method": "linguistic",
+      "partition": "quantile",
+      "states": 2,
+      "B": 8,
+      "l1": 0.01,
+      "lg": 0.005,
+      "candidate_id": "95d2ad0c312b"
+    },
+    {
+      "view": "phase_occ",
+      "method": "linguistic",
+      "partition": "ha_soft",
+      "states": 4,
+      "B": 8,
+      "l1": 0.001,
+      "lg": 0.0005,
+      "candidate_id": "5e553fcce22a"
+    },
+    {
+      "view": "phase_occ",
+      "method": "linguistic",
+      "partition": "ha_soft",
+      "states": 2,
+      "B": 4,
+      "l1": 0.001,
+      "lg": 0.0005,
+      "candidate_id": "93d308924380"
+    },
+    {
+      "view": "phase_occ",
+      "method": "linguistic",
+      "partition": "ha_soft",
+      "states": 2,
+      "B": 4,
+      "l1": 0.1,
+      "lg": 0.05,
+      "candidate_id": "ce58cf344c1d"
+    },
+    {
+      "view": "phase_occ",
+      "method": "linguistic",
+      "partition": "ha_soft",
+      "states": 4,
+      "B": 4,
+      "l1": 0.001,
+      "lg": 0.0005,
+      "candidate_id": "496f0ffba936"
+    }
+  ],
+  "phase_ordered": [
+    {
+      "view": "phase_ordered",
+      "method": "linguistic",
+      "partition": "ha_soft",
+      "states": 4,
+      "B": 8,
+      "l1": 0.01,
+      "lg": 0.005,
+      "candidate_id": "fe3ac1846d1a"
+    },
+    {
+      "view": "phase_ordered",
+      "method": "linguistic",
+      "partition": "quantile",
+      "states": 4,
+      "B": 4,
+      "l1": 0.01,
+      "lg": 0.005,
+      "candidate_id": "ff6ff2146710"
+    },
+    {
+      "view": "phase_ordered",
+      "method": "linguistic",
+      "partition": "quantile",
+      "states": 4,
+      "B": 4,
+      "l1": 0.001,
+      "lg": 0.0005,
+      "candidate_id": "fa8c38ad3712"
+    },
+    {
+      "view": "phase_ordered",
+      "method": "linguistic",
+      "partition": "ha_soft",
+      "states": 2,
+      "B": 8,
+      "l1": 0.1,
+      "lg": 0.05,
+      "candidate_id": "c4743bb40e1d"
+    },
+    {
+      "view": "phase_ordered",
+      "method": "linguistic",
+      "partition": "ha_soft",
+      "states": 2,
+      "B": 4,
+      "l1": 0.01,
+      "lg": 0.005,
+      "candidate_id": "9d86f3ab1d0f"
+    },
+    {
+      "view": "phase_ordered",
+      "method": "linguistic",
+      "partition": "ha_soft",
+      "states": 4,
+      "B": 4,
+      "l1": 0.1,
+      "lg": 0.05,
+      "candidate_id": "fb10de821495"
+    },
+    {
+      "view": "phase_ordered",
+      "method": "linguistic",
+      "partition": "quantile",
+      "states": 2,
+      "B": 8,
+      "l1": 0.001,
+      "lg": 0.0005,
+      "candidate_id": "a14a68d3497a"
+    },
+    {
+      "view": "phase_ordered",
+      "method": "linguistic",
+      "partition": "quantile",
+      "states": 2,
+      "B": 8,
+      "l1": 0.01,
+      "lg": 0.005,
+      "candidate_id": "c3e3ef9d8ebe"
+    },
+    {
+      "view": "phase_ordered",
+      "method": "linguistic",
+      "partition": "ha_soft",
+      "states": 4,
+      "B": 8,
+      "l1": 0.001,
+      "lg": 0.0005,
+      "candidate_id": "1bfaf2643445"
+    },
+    {
+      "view": "phase_ordered",
+      "method": "linguistic",
+      "partition": "ha_soft",
+      "states": 2,
+      "B": 4,
+      "l1": 0.001,
+      "lg": 0.0005,
+      "candidate_id": "027c6e56c3fd"
+    },
+    {
+      "view": "phase_ordered",
+      "method": "linguistic",
+      "partition": "ha_soft",
+      "states": 2,
+      "B": 4,
+      "l1": 0.1,
+      "lg": 0.05,
+      "candidate_id": "dfd8aedada46"
+    },
+    {
+      "view": "phase_ordered",
+      "method": "linguistic",
+      "partition": "ha_soft",
+      "states": 4,
+      "B": 4,
+      "l1": 0.001,
+      "lg": 0.0005,
+      "candidate_id": "75528220076b"
+    }
+  ],
+  "combined": [
+    {
+      "view": "combined",
+      "method": "linguistic",
+      "partition": "ha_soft",
+      "states": 4,
+      "B": 8,
+      "l1": 0.01,
+      "lg": 0.005,
+      "candidate_id": "3aa5b4fb5c19"
+    },
+    {
+      "view": "combined",
+      "method": "linguistic",
+      "partition": "quantile",
+      "states": 4,
+      "B": 4,
+      "l1": 0.01,
+      "lg": 0.005,
+      "candidate_id": "e570b15fa34b"
+    },
+    {
+      "view": "combined",
+      "method": "linguistic",
+      "partition": "quantile",
+      "states": 4,
+      "B": 4,
+      "l1": 0.001,
+      "lg": 0.0005,
+      "candidate_id": "6092b5d75679"
+    },
+    {
+      "view": "combined",
+      "method": "linguistic",
+      "partition": "ha_soft",
+      "states": 2,
+      "B": 8,
+      "l1": 0.1,
+      "lg": 0.05,
+      "candidate_id": "abd417a46518"
+    },
+    {
+      "view": "combined",
+      "method": "linguistic",
+      "partition": "ha_soft",
+      "states": 2,
+      "B": 4,
+      "l1": 0.01,
+      "lg": 0.005,
+      "candidate_id": "5600f5392cdc"
+    },
+    {
+      "view": "combined",
+      "method": "linguistic",
+      "partition": "ha_soft",
+      "states": 4,
+      "B": 4,
+      "l1": 0.1,
+      "lg": 0.05,
+      "candidate_id": "c0e70ad9c185"
+    },
+    {
+      "view": "combined",
+      "method": "linguistic",
+      "partition": "quantile",
+      "states": 2,
+      "B": 8,
+      "l1": 0.001,
+      "lg": 0.0005,
+      "candidate_id": "2d9f5da585b1"
+    },
+    {
+      "view": "combined",
+      "method": "linguistic",
+      "partition": "quantile",
+      "states": 2,
+      "B": 8,
+      "l1": 0.01,
+      "lg": 0.005,
+      "candidate_id": "c5a747434146"
+    },
+    {
+      "view": "combined",
+      "method": "linguistic",
+      "partition": "ha_soft",
+      "states": 4,
+      "B": 8,
+      "l1": 0.001,
+      "lg": 0.0005,
+      "candidate_id": "3fccefef50ed"
+    },
+    {
+      "view": "combined",
+      "method": "linguistic",
+      "partition": "ha_soft",
+      "states": 2,
+      "B": 4,
+      "l1": 0.001,
+      "lg": 0.0005,
+      "candidate_id": "bd00a6d79867"
+    },
+    {
+      "view": "combined",
+      "method": "linguistic",
+      "partition": "ha_soft",
+      "states": 2,
+      "B": 4,
+      "l1": 0.1,
+      "lg": 0.05,
+      "candidate_id": "f725d0cc22e0"
+    },
+    {
+      "view": "combined",
+      "method": "linguistic",
+      "partition": "ha_soft",
+      "states": 4,
+      "B": 4,
+      "l1": 0.001,
+      "lg": 0.0005,
+      "candidate_id": "fdb7bb6b364d"
+    }
+  ],
+  "full_window": [
+    {
+      "view": "full_window",
+      "method": "linguistic",
+      "partition": "ha_soft",
+      "states": 2,
+      "B": 8,
+      "l1": 0.01,
+      "lg": 0.005,
+      "candidate_id": "aaf7b5ed0fcf"
+    },
+    {
+      "view": "full_window",
+      "method": "linguistic",
+      "partition": "ha_soft",
+      "states": 2,
+      "B": 8,
+      "l1": 0.001,
+      "lg": 0.0005,
+      "candidate_id": "dcd6cf1d1239"
+    },
+    {
+      "view": "full_window",
+      "method": "linguistic",
+      "partition": "ha_soft",
+      "states": 2,
+      "B": 8,
+      "l1": 0.1,
+      "lg": 0.05,
+      "candidate_id": "1219b2179e59"
+    },
+    {
+      "view": "full_window",
+      "method": "linguistic",
+      "partition": "quantile",
+      "states": 2,
+      "B": 8,
+      "l1": 0.1,
+      "lg": 0.05,
+      "candidate_id": "ca4e294b9cae"
+    },
+    {
+      "view": "full_window",
+      "method": "linguistic",
+      "partition": "quantile",
+      "states": 2,
+      "B": 8,
+      "l1": 0.001,
+      "lg": 0.0005,
+      "candidate_id": "45eeb4dbce4b"
+    },
+    {
+      "view": "full_window",
+      "method": "linguistic",
+      "partition": "quantile",
+      "states": 2,
+      "B": 8,
+      "l1": 0.01,
+      "lg": 0.005,
+      "candidate_id": "f4402ef48801"
+    },
+    {
+      "view": "full_window",
+      "method": "linguistic",
+      "partition": "ha_soft",
+      "states": 4,
+      "B": 8,
+      "l1": 0.1,
+      "lg": 0.05,
+      "candidate_id": "c47d48fe18e0"
+    },
+    {
+      "view": "full_window",
+      "method": "linguistic",
+      "partition": "quantile",
+      "states": 4,
+      "B": 8,
+      "l1": 0.01,
+      "lg": 0.005,
+      "candidate_id": "a3d9ab0bb213"
+    },
+    {
+      "view": "full_window",
+      "method": "linguistic",
+      "partition": "quantile",
+      "states": 4,
+      "B": 8,
+      "l1": 0.001,
+      "lg": 0.0005,
+      "candidate_id": "4490569388a7"
+    },
+    {
+      "view": "full_window",
+      "method": "linguistic",
+      "partition": "quantile",
+      "states": 4,
+      "B": 8,
+      "l1": 0.1,
+      "lg": 0.05,
+      "candidate_id": "a78932a2a468"
+    },
+    {
+      "view": "full_window",
+      "method": "linguistic",
+      "partition": "ha_soft",
+      "states": 4,
+      "B": 8,
+      "l1": 0.001,
+      "lg": 0.0005,
+      "candidate_id": "1df844fadadb"
+    },
+    {
+      "view": "full_window",
+      "method": "linguistic",
+      "partition": "ha_soft",
+      "states": 4,
+      "B": 8,
+      "l1": 0.01,
+      "lg": 0.005,
+      "candidate_id": "bcdf6fd7a9e9"
+    }
+  ],
+  "static_svm": [
+    {
+      "view": "window",
+      "method": "svm",
+      "C": 10,
+      "candidate_id": "b4fe014da181"
+    },
+    {
+      "view": "window",
+      "method": "svm",
+      "C": 1,
+      "candidate_id": "a3321d8c7912"
+    },
+    {
+      "view": "window",
+      "method": "svm",
+      "C": 0.1,
+      "candidate_id": "a4b5bc607a11"
+    }
+  ],
+  "phase_linear": [
+    {
+      "view": "phase_ordered",
+      "method": "linear",
+      "B": 4,
+      "C": 10,
+      "kernels": 0,
+      "seed": 20261030,
+      "candidate_id": "72ec0f0696bb"
+    },
+    {
+      "view": "phase_ordered",
+      "method": "linear",
+      "B": 8,
+      "C": 10,
+      "kernels": 0,
+      "seed": 20261030,
+      "candidate_id": "846ed738896f"
+    },
+    {
+      "view": "phase_ordered",
+      "method": "linear",
+      "B": 4,
+      "C": 1,
+      "kernels": 0,
+      "seed": 20261030,
+      "candidate_id": "8f63da9c83b1"
+    },
+    {
+      "view": "phase_ordered",
+      "method": "linear",
+      "B": 4,
+      "C": 0.1,
+      "kernels": 0,
+      "seed": 20261030,
+      "candidate_id": "fd57218211a1"
+    },
+    {
+      "view": "phase_ordered",
+      "method": "linear",
+      "B": 8,
+      "C": 0.1,
+      "kernels": 0,
+      "seed": 20261030,
+      "candidate_id": "5fe479d6e70e"
+    },
+    {
+      "view": "phase_ordered",
+      "method": "linear",
+      "B": 8,
+      "C": 1,
+      "kernels": 0,
+      "seed": 20261030,
+      "candidate_id": "5084aac66cfc"
+    }
+  ],
+  "combined_linear": [
+    {
+      "view": "combined",
+      "method": "linear",
+      "B": 4,
+      "C": 10,
+      "kernels": 0,
+      "seed": 20261030,
+      "candidate_id": "6314d1908391"
+    },
+    {
+      "view": "combined",
+      "method": "linear",
+      "B": 8,
+      "C": 10,
+      "kernels": 0,
+      "seed": 20261030,
+      "candidate_id": "9ee60630893f"
+    },
+    {
+      "view": "combined",
+      "method": "linear",
+      "B": 4,
+      "C": 1,
+      "kernels": 0,
+      "seed": 20261030,
+      "candidate_id": "5701f4f1e973"
+    },
+    {
+      "view": "combined",
+      "method": "linear",
+      "B": 4,
+      "C": 0.1,
+      "kernels": 0,
+      "seed": 20261030,
+      "candidate_id": "cbc8d8300584"
+    },
+    {
+      "view": "combined",
+      "method": "linear",
+      "B": 8,
+      "C": 0.1,
+      "kernels": 0,
+      "seed": 20261030,
+      "candidate_id": "68822cc13481"
+    },
+    {
+      "view": "combined",
+      "method": "linear",
+      "B": 8,
+      "C": 1,
+      "kernels": 0,
+      "seed": 20261030,
+      "candidate_id": "bb301ced5d54"
+    }
+  ],
+  "phase_rocket": [
+    {
+      "view": "phase_ordered",
+      "method": "rocket",
+      "B": 4,
+      "C": 0.1,
+      "kernels": 2000,
+      "seed": 20261030,
+      "candidate_id": "5635f9fd0be9"
+    },
+    {
+      "view": "phase_ordered",
+      "method": "rocket",
+      "B": 4,
+      "C": 0.1,
+      "kernels": 512,
+      "seed": 20261030,
+      "candidate_id": "345ff09a41d2"
+    },
+    {
+      "view": "phase_ordered",
+      "method": "rocket",
+      "B": 4,
+      "C": 1,
+      "kernels": 512,
+      "seed": 20261030,
+      "candidate_id": "6fb44d92585f"
+    },
+    {
+      "view": "phase_ordered",
+      "method": "rocket",
+      "B": 8,
+      "C": 1,
+      "kernels": 512,
+      "seed": 20261030,
+      "candidate_id": "710cab0d4c84"
+    },
+    {
+      "view": "phase_ordered",
+      "method": "rocket",
+      "B": 8,
+      "C": 0.1,
+      "kernels": 512,
+      "seed": 20261030,
+      "candidate_id": "561f9d37ac2c"
+    },
+    {
+      "view": "phase_ordered",
+      "method": "rocket",
+      "B": 8,
+      "C": 0.1,
+      "kernels": 2000,
+      "seed": 20261030,
+      "candidate_id": "01ca9aaa2ccf"
+    },
+    {
+      "view": "phase_ordered",
+      "method": "rocket",
+      "B": 4,
+      "C": 10,
+      "kernels": 2000,
+      "seed": 20261030,
+      "candidate_id": "c615da76a10d"
+    },
+    {
+      "view": "phase_ordered",
+      "method": "rocket",
+      "B": 8,
+      "C": 10,
+      "kernels": 512,
+      "seed": 20261030,
+      "candidate_id": "8df3b6a49810"
+    },
+    {
+      "view": "phase_ordered",
+      "method": "rocket",
+      "B": 8,
+      "C": 1,
+      "kernels": 2000,
+      "seed": 20261030,
+      "candidate_id": "3af04e7d70bf"
+    },
+    {
+      "view": "phase_ordered",
+      "method": "rocket",
+      "B": 8,
+      "C": 10,
+      "kernels": 2000,
+      "seed": 20261030,
+      "candidate_id": "d3cdbe4e2b69"
+    },
+    {
+      "view": "phase_ordered",
+      "method": "rocket",
+      "B": 4,
+      "C": 1,
+      "kernels": 2000,
+      "seed": 20261030,
+      "candidate_id": "4b63cf52f1f0"
+    },
+    {
+      "view": "phase_ordered",
+      "method": "rocket",
+      "B": 4,
+      "C": 10,
+      "kernels": 512,
+      "seed": 20261030,
+      "candidate_id": "73beddd4876e"
+    }
+  ],
+  "combined_rocket": [
+    {
+      "view": "combined",
+      "method": "rocket",
+      "B": 4,
+      "C": 0.1,
+      "kernels": 2000,
+      "seed": 20261030,
+      "candidate_id": "751185e2a59c"
+    },
+    {
+      "view": "combined",
+      "method": "rocket",
+      "B": 4,
+      "C": 0.1,
+      "kernels": 512,
+      "seed": 20261030,
+      "candidate_id": "bf734de56ac9"
+    },
+    {
+      "view": "combined",
+      "method": "rocket",
+      "B": 4,
+      "C": 1,
+      "kernels": 512,
+      "seed": 20261030,
+      "candidate_id": "62ed95124fcd"
+    },
+    {
+      "view": "combined",
+      "method": "rocket",
+      "B": 8,
+      "C": 1,
+      "kernels": 512,
+      "seed": 20261030,
+      "candidate_id": "21a915ca09ac"
+    },
+    {
+      "view": "combined",
+      "method": "rocket",
+      "B": 8,
+      "C": 0.1,
+      "kernels": 512,
+      "seed": 20261030,
+      "candidate_id": "766373d148d2"
+    },
+    {
+      "view": "combined",
+      "method": "rocket",
+      "B": 8,
+      "C": 0.1,
+      "kernels": 2000,
+      "seed": 20261030,
+      "candidate_id": "9e28e8c1b587"
+    },
+    {
+      "view": "combined",
+      "method": "rocket",
+      "B": 4,
+      "C": 10,
+      "kernels": 2000,
+      "seed": 20261030,
+      "candidate_id": "24fa73a797c4"
+    },
+    {
+      "view": "combined",
+      "method": "rocket",
+      "B": 8,
+      "C": 10,
+      "kernels": 512,
+      "seed": 20261030,
+      "candidate_id": "b038df6efab6"
+    },
+    {
+      "view": "combined",
+      "method": "rocket",
+      "B": 8,
+      "C": 1,
+      "kernels": 2000,
+      "seed": 20261030,
+      "candidate_id": "ea453bbd7e83"
+    },
+    {
+      "view": "combined",
+      "method": "rocket",
+      "B": 8,
+      "C": 10,
+      "kernels": 2000,
+      "seed": 20261030,
+      "candidate_id": "4444d11a9c31"
+    },
+    {
+      "view": "combined",
+      "method": "rocket",
+      "B": 4,
+      "C": 1,
+      "kernels": 2000,
+      "seed": 20261030,
+      "candidate_id": "557fcfe3d8fc"
+    },
+    {
+      "view": "combined",
+      "method": "rocket",
+      "B": 4,
+      "C": 10,
+      "kernels": 512,
+      "seed": 20261030,
+      "candidate_id": "839bb9a267e3"
+    }
+  ]
+}

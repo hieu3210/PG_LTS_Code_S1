@@ -1,0 +1,88 @@
+{
+  "name": "SMOKE_SYNTHETIC",
+  "data_mode": "synthetic",
+  "data_root": "dataset/polliradar",
+  "output_root": "runs",
+  "seed": 20261030,
+  "outer_folds": 2,
+  "inner_folds": 2,
+  "expected_subjects": 12,
+  "hr_threshold": 0.3,
+  "max_cycles": 12,
+  "threads": 1,
+  "max_iter": 1000,
+  "tol": 0.0001,
+  "require_convergence": true,
+  "budget_per_arm": 1,
+  "bins": [
+    8
+  ],
+  "states": [
+    4
+  ],
+  "partitions": [
+    "ha_soft"
+  ],
+  "penalties": [
+    0.01
+  ],
+  "C_values": [
+    1
+  ],
+  "kernels": [
+    16
+  ],
+  "rocket_fit_cycles": 64,
+  "bootstrap": 30,
+  "null_permutations": 19,
+  "alpha": 0.05,
+  "calibration_lengths": [
+    7,
+    8,
+    19
+  ],
+  "calibration_repetitions": 10,
+  "permutation_repetitions": 2,
+  "rule_k": [
+    3
+  ],
+  "arms": [
+    "occupancy",
+    "phase_occ",
+    "phase_ordered",
+    "combined",
+    "full_window",
+    "static_svm",
+    "phase_linear",
+    "combined_linear",
+    "phase_rocket",
+    "combined_rocket"
+  ],
+  "robustness_arms": [
+    "occupancy",
+    "phase_ordered",
+    "combined"
+  ],
+  "perturbations": [
+    {
+      "name": "clean",
+      "kind": "clean",
+      "amount": 0
+    },
+    {
+      "name": "noise20",
+      "kind": "awgn",
+      "amount": 20
+    },
+    {
+      "name": "boundary_jitter1",
+      "kind": "boundary_jitter",
+      "amount": 1
+    },
+    {
+      "name": "missed_boundary10",
+      "kind": "missed_boundary",
+      "amount": 0.1
+    }
+  ]
+}

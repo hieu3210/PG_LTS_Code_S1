@@ -1,0 +1,82 @@
+{
+  "seed": 20261102,
+  "B": 8,
+  "max_cycles": 32,
+  "threads": 1,
+  "bootstrap": 5000,
+  "pg_arms": [
+    "combined",
+    "phase_ordered"
+  ],
+  "rule_k": [
+    3,
+    5,
+    10
+  ],
+  "baseline_grid": {
+    "DrCIF": [
+      {
+        "n_estimators": 50
+      },
+      {
+        "n_estimators": 200
+      }
+    ],
+    "RDST": [
+      {
+        "max_shapelets": 100
+      },
+      {
+        "max_shapelets": 500
+      }
+    ]
+  },
+  "perturbations": [
+    {
+      "name": "clean",
+      "kind": "clean",
+      "amount": 0
+    },
+    {
+      "name": "phase_jitter_005",
+      "kind": "radar_phase_jitter",
+      "amount": 0.05
+    },
+    {
+      "name": "phase_jitter_020",
+      "kind": "radar_phase_jitter",
+      "amount": 0.2
+    },
+    {
+      "name": "boundary_jitter_1",
+      "kind": "boundary_jitter",
+      "amount": 1
+    },
+    {
+      "name": "boundary_jitter_2",
+      "kind": "boundary_jitter",
+      "amount": 2
+    },
+    {
+      "name": "boundary_shift_1",
+      "kind": "boundary_offset",
+      "amount": 1
+    },
+    {
+      "name": "missed_boundary_10pct",
+      "kind": "missed_boundary",
+      "amount": 0.1
+    }
+  ],
+  "pg_partitions": [
+    "ha_soft",
+    "quantile"
+  ],
+  "pg_states": [
+    2
+  ],
+  "pg_penalties": [
+    0.001,
+    0.01
+  ]
+}

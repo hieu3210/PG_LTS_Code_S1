@@ -1,0 +1,21 @@
+{
+  "seed": 20261102,
+  "cycle_manifest": "inputs/order_v120/cycle_manifest.csv",
+  "output_root": "runs_v130",
+  "expected_profiles": 66,
+  "channels": 3,
+  "states": 4,
+  "path_weight": 0.8,
+  "scenarios": [
+    "uniform_shared",
+    "block_shared_smooth",
+    "cyclic_shared_smooth",
+    "aligned_035",
+    "aligned_080"
+  ],
+  "repetitions": 500,
+  "null_permutations": 999,
+  "exact_limit": 4096,
+  "alpha": 0.05,
+  "chunk_size": 25
+}

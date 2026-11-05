@@ -1,0 +1,4 @@
+32c32
+<         n=min(len(b),max_cycles);x=np.zeros((4,max_cycles*B),np.float32)
+---
+>         n=min(len(b),max_cycles);x=np.zeros((4,max_cycles*B),np.float64)

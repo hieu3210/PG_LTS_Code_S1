@@ -1,0 +1,3 @@
+numpy>=1.24
+# joblib is needed only with --trust-joblib. Use the ORIGINAL run environment.
+# Do not upgrade aeon/scikit-learn/numba to run this exporter.

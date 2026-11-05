@@ -1,0 +1,3 @@
+data_mode,configuration,raw_coordinates,reduced_coordinates,max_abs_score_error,prediction_agreement
+synthetic_algebra,full_bank,320,225,1.0658141036401503e-13,1.0
+synthetic_algebra,combined,112,84,3.552713678800501e-14,1.0

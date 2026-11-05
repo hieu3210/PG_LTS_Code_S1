@@ -1,0 +1,30 @@
+{
+  "split_seeds": [
+    20261030,
+    20261102,
+    20261103,
+    20261104,
+    20261105
+  ],
+  "bootstrap_seed": 20261102,
+  "bootstrap": 5000,
+  "arms": [
+    "occupancy",
+    "phase_occ",
+    "phase_ordered",
+    "combined"
+  ],
+  "contrasts": [
+    [
+      "combined",
+      "occupancy"
+    ],
+    [
+      "phase_ordered",
+      "phase_occ"
+    ]
+  ],
+  "reuse_reference": true,
+  "threads": 1,
+  "output_root": "runs_v130"
+}

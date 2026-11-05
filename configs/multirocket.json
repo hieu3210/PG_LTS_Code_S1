@@ -1,0 +1,132 @@
+{
+  "name": "review_multirocket",
+  "data_mode": "polliradar",
+  "data_root": "dataset/polliradar",
+  "output_root": "runs",
+  "seed": 20261030,
+  "outer_folds": 4,
+  "inner_folds": 3,
+  "expected_subjects": 33,
+  "hr_threshold": 0.3,
+  "max_cycles": 200,
+  "threads": 1,
+  "max_iter": 3000,
+  "tol": 1e-05,
+  "require_convergence": true,
+  "budget_per_arm": 12,
+  "bins": [
+    4,
+    8
+  ],
+  "states": [
+    2,
+    4
+  ],
+  "partitions": [
+    "ha_soft",
+    "quantile"
+  ],
+  "penalties": [
+    0.001,
+    0.01,
+    0.1
+  ],
+  "C_values": [
+    0.1,
+    1,
+    10
+  ],
+  "kernels": [
+    512,
+    2000
+  ],
+  "rocket_fit_cycles": 4096,
+  "bootstrap": 5000,
+  "null_permutations": 999,
+  "alpha": 0.05,
+  "calibration_lengths": [
+    7,
+    8,
+    19
+  ],
+  "calibration_repetitions": 500,
+  "permutation_repetitions": 10,
+  "rule_k": [
+    3,
+    5,
+    10
+  ],
+  "arms": [
+    "phase_ordered",
+    "combined",
+    "phase_multirocket",
+    "combined_multirocket"
+  ],
+  "robustness_arms": [
+    "occupancy",
+    "phase_ordered",
+    "combined"
+  ],
+  "perturbations": [
+    {
+      "name": "clean",
+      "kind": "clean",
+      "amount": 0
+    },
+    {
+      "name": "noise20",
+      "kind": "awgn",
+      "amount": 20
+    },
+    {
+      "name": "noise10",
+      "kind": "awgn",
+      "amount": 10
+    },
+    {
+      "name": "noise0",
+      "kind": "awgn",
+      "amount": 0
+    },
+    {
+      "name": "radar_jitter005",
+      "kind": "radar_phase_jitter",
+      "amount": 0.05
+    },
+    {
+      "name": "radar_jitter020",
+      "kind": "radar_phase_jitter",
+      "amount": 0.2
+    },
+    {
+      "name": "boundary_jitter1",
+      "kind": "boundary_jitter",
+      "amount": 1
+    },
+    {
+      "name": "boundary_jitter2",
+      "kind": "boundary_jitter",
+      "amount": 2
+    },
+    {
+      "name": "boundary_offset1",
+      "kind": "boundary_offset",
+      "amount": 1
+    },
+    {
+      "name": "boundary_offset_minus1",
+      "kind": "boundary_offset",
+      "amount": -1
+    },
+    {
+      "name": "phase_offset_quarter",
+      "kind": "phase_offset",
+      "amount": 0.25
+    },
+    {
+      "name": "missed_boundary10",
+      "kind": "missed_boundary",
+      "amount": 0.1
+    }
+  ]
+}
